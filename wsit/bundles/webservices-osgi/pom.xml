@@ -328,6 +328,11 @@
             <optional>true</optional>
         </dependency>
         <dependency>
+            <groupId>com.sun.org.apache.xml.internal</groupId>
+            <artifactId>resolver</artifactId>
+            <version>${resolver.version}</version>
+        </dependency>
+        <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>webservices-rt</artifactId>
             <version>${project.version}</version>
